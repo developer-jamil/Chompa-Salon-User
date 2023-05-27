@@ -1,0 +1,250 @@
+<resources>
+    <string name="app_name" translatable="false">নিউ চম্পা ৩ - সেলুন চুনারুঘাট</string>
+
+    <string name="style_1" translatable="false">Style 1</string>
+    <string name="home">হোম</string>
+    <string name="booking">বুকিং</string>
+    <string name="style">স্টাইল</string>
+    <string name="profile">প্রোফাইল</string>
+
+
+    <string name="online_sit_booking">অনলাইন সিট বুকিং</string>
+    <string name="customize_your_time">কাস্টমাইজ ইউর টাইম</string>
+    <string name="book_now">সিরিয়াল নিন</string>
+    <string name="our_services">আমাদের সেবা সমূহ</string>
+
+    <string name="hair_style">হেয়ার স্টাইল</string>
+    <string name="beard_style">দাড়ি স্টাইল</string>
+    <string name="hair_and_beard">চুল এবং দাড়ি</string>
+    <string name="hair_state">হেয়ার স্টেইট</string>
+    <string name="facial">ফেসিয়াল</string>
+    <string name="customer_review">কাস্টমারদের রিভিও</string>
+    <string name="review_customer">রিভিও</string>
+    <string name="total_customer">সদস্য</string>
+    <string name="happy_customer">খুশি</string>
+    <string name="happy_customers">547</string>
+    <string name="sad_customers">13</string>
+    <string name="total_customers">560</string>
+    <string name="shop_location">সপ-লোকেশন</string>
+    <string name="jamil_lab_ltd">Jamil Lab LTD</string>
+
+    <string name="first_review">চম্পা সেলুনটি খুবই পপুলার। আমি এখানের নিয়মিত কাস্টমার। তাদের সেবাগুলো খুবই ভাল। আশা করছি ভবিষ্যতেও এমন সার্ভিস পাবো। ধন্যবাদ। </string>
+    <string name="less_then">‹</string>
+    <string name="getter_then">›</string>
+
+    <string name="shop_address"><b>সেলুনের নামঃ নিউ চম্পা ৩</b> \t উপজেলার মেইন গেইট এর বিপরীত পাশে। ইকরা টেকনিক্যাল ইস্টিটিউট প্রতিষ্টানের নিচতলায় ভিতরের শেষের রুমটি। \t Chunarughat Habiganj \t Sylhet Bangladesh</string>
+    <string name="photo_gallery">ফটো গ্যালারি</string>
+    <string name="setting">সেটিংস</string>
+
+    <string name="serialHomeTitle">সিরিয়াল কাস্টমাইজেশন</string>
+    <string name="edit">ইডিট</string>
+    <string name="save">সংরক্ষন করুন</string>
+    <string name="enter_your_name">আপনার নাম লিখুন…</string>
+    <string name="enter_your_name_bottom_sheet">আপনার নাম লিখুন</string>
+    <string name="sample_text">লোডিং হচ্ছে…</string>
+    <string name="refresh">রিফ্রেশ</string>
+    <string name="logout">লগআউট</string>
+    <string name="loading">লোডিং হচ্ছে……</string>
+    <string name="dark_mood">ডার্ক মোড</string>
+    <string name="customize_your_profile">আমাদের ওয়ার্ডে স্বাগতম!</string>
+
+    <string name="serialsNopurDa">সিরিয়াল - নুপুর দা</string>
+    <string name="click_to_book">বুক করতে এখানে ক্লিক করুন.</string>
+    <string name="already_booked">সিরিয়ালটি বুকিং হয়ে গিয়েছে</string>
+    <string name="time_1">10:00am - 10:30am</string>
+    <string name="time_2">10:30am - 11:00am</string>
+    <string name="time_3">11:00am - 11:30am</string>
+    <string name="time_4">11:30am - 12:00am</string>
+    <string name="time_5">12:00pm - 12:30pm</string>
+    <string name="time_6">12:30pm - 1:00pm</string>
+    <string name="time_7">1:00pm - 1:30pm</string>
+    <string name="time_8">1:30pm - 2:00pm</string>
+    <string name="time_9">2:30pm - 3:00pm</string>
+    <string name="time_10">3:00pm - 3:30pm</string>
+    <string name="time_11">3:30pm - 4:00pm</string>
+    <string name="time_12">4:00pm - 4:30pm</string>
+    <string name="time_13">4:30pm - 5:00pm</string>
+    <string name="time_14">5:00pm - 5:30pm</string>
+    <string name="time_15">5:30pm - 6:00pm</string>
+    <string name="time_16">6:00pm - 6:30pm</string>
+    <string name="time_17">6:30pm - 7:00pm</string>
+    <string name="time_18">7:00pm - 7:30pm</string>
+    <string name="time_19">7:30pm - 8:00pm</string>
+    <string name="time_20">8:00pm - 8:30pm</string>
+    <string name="time_21">8:30pm - 9:00pm</string>
+    <string name="login">লগইন</string>
+    <string name="email">ইমেইল…</string>
+    <string name="password">পাসওয়ার্ড…</string>
+    <string name="forgot_password">পাসওয়ার্ড ভূলে গেছেন?</string>
+    <string name="create_new_account">নতুন একটি অ্যাকাউন্ট তৈরি করুন?</string>
+    <string name="or">অথবা</string>
+    <string name="register">রেজিস্টার</string>
+    <string name="already_have_an_account">ইতিমধ্যে একটি সদস্যপদ আছে?</string>
+    <string name="confirm_password">নিশ্চিত পাসওয়ার্ড…</string>
+    <string name="new_password">নতুন পাসওয়ার্ড…</string>
+    <string name="remember_me">আমাকে মনে রেখো</string>
+
+    <string name="enter_email">আপনার ইমেল লিখুন…</string>
+    <string name="enter_valid_email">একটি বৈধ ইমেল লিখুন…</string>
+    <string name="enter_pass">পাসওয়ার্ড লিখুন…</string>
+    <string name="enter_reg_email">পাসওয়ার্ড রিসেট লিঙ্ক পেতে আপনার নিবন্ধিত ইমেল লিখুন.</string>
+    <string name="reset_password">পাসওয়ার্ড রিসেট করুন</string>
+
+    <string name="recover_pass">পাসওয়ার্ড পুনরুদ্ধার করুন</string>
+    <string name="new_pass">একটি নতুন পাসওয়ার্ড তৈরি করুন</string>
+    <string name="not_matching_pass">পাসওয়ার্ড মিলছে না</string>
+    <string name="weak__pass">পাসওয়ার্ড খুব দুর্বল। পাসওয়ার্ড কমপক্ষে ৬ সংখ্যার হতে হবে</string>
+    <string name="check_email">আপনার ইমেইল চেক করুন. পাসওয়ার্ড রিসেট লিঙ্ক সফলভাবে আপনার ইমেল পাঠানো হয়েছে.</string>
+    <string name="full_name">আপনার পুরো নাম লিখুন…</string>
+    <string name="full_name_req">আপনার পুরো নাম লিখুন*</string>
+    <string name="register_successfully">সাফল্যের সাথে নিবন্ধিত.</string>
+    <string name="weak_pass_alert">আপনার পাসওয়ার্ড খুব সপ্তাহের. অনুগ্রহ করে বর্ণমালা, সংখ্যা এবং পাঠ্যের মিশ্রণ ব্যবহার করুন</string>
+    <string name="invalid_or_used">আপনার ই-মেইল অবৈধ. অথবা ইতিমধ্যে ব্যবহার করা হয়েছে, দয়া করে পুনরায় প্রবেশ করুন</string>
+    <string name="already_used_this_email">ব্যবহারকারী ইতিমধ্যেই এই ইমেলের সাথে নিবন্ধিত। অন্য ইমেইল ব্যবহার করুন</string>
+
+    <string name="later">পরে</string>
+    <string name="email_text">ইমেল</string>
+    <string name="verify_now">এখনি সনাক্ত করুন</string>
+    <string name="verify_email">ইমেল যাচাই করুন</string>
+    <string name="verify_msg_text">প্রিয় ইউজার! আপনার ইমেল যাচাই কৃত নয়। আমাদের সমস্ত বৈশিষ্ট্য অ্যাক্সেস করতে আপনার ইমেলটি যাচাই করুন।</string>
+    <string name="verify_msg">এ একটি ভেরিফিকেশন লিংক পাঠানে হয়েছে। অ্যাকাউনটি ভেরিফাইড করতে ইমেইলে পাঠানো লিংকে ক্লিক করে নিশ্চিত করুন। ধন্যবাদ‌।</string>
+    <string name="developer_info">~ডেভেলপার সম্পর্কে~</string>
+    <string name="android_app_developer">এন্ড্রয়েড এপস ডেভেলপার</string>
+    <string name="education">শিক্ষাগত যোগ্যতা</string>
+    <string name="b_sc_honours_dep_mathematics">বি.এস.সি অনার্স।  গণিত বিভাগ</string>
+    <string name="address">ঠিকানা</string>
+    <string name="address_dis">হবিগঞ্জ, সিলেট বাংলাদেশ</string>
+    <string name="mobile">মোবাইল</string>
+    <string name="profile_dis_text">প্রিয় ব্যবহারকারী. প্রথমেই আমার অ্যাপটি ব্যবহার করার জন্য আপনাকে অনেক ধন্যবাদ। আমি আশা করি আপনি আমার অ্যাপটি উপভোগ করছেন। আপনার যদি কোন ধরণের অ্যান্ড্রয়েড অ্যাপের প্রয়োজন হয় তবে নির্দ্বিধায় আমাকে মেসেজ করুন। আমি আপনার জন্য একটি সেরা অ্যাপ তৈরি করার চেষ্টা করব। আপনি যদি         এই অ্যাপটি নিয়ে কোনো সমস্যার সম্মুখীন হন তাহলে দয়া করে আমাকে জানান। আবার ধন্যবাদ. শুভেচ্ছায় ডেভেলপার জামিল।</string>
+    <string name="coming_soon">শীগ্রই আসছে…</string>
+    <string name="lr_jamil">নাম: এল.আর.জামিল</string>
+    <string name="edit_your_review">ইডিট রিভিও</string>
+    <string name="enter_your_review">প্রথমে আপনার পর্যালোচনা লিখুন</string>
+    <string name="submit_review">জমা দিন</string>
+    <string name="write_your_review">আপনার পর্যালোচনা লিখুন…</string>
+    <string name="name">নাম</string>
+    <string name="sw_wrong">কিছু ভুল হয়েছে</string>
+    <string name="successfully_saved">সফলভাবে সংরক্ষিত</string>
+    <string name="message_text">এখানে আপনার বার্তা লিখুন!</string>
+    <string name="subject_text">একটি বিষয় লিখুন…</string>
+    <string name="send">পাঠান</string>
+    <string name="message">বার্তা…</string>
+    <string name="subject">বিষয়</string>
+    <string name="open_email">ইমেইল খুলুন</string>
+    <string name="yourText">তোমার</string>
+    <string name="email_not_verified">ইমেল যাচাই করা হয়নি</string>
+    <string name="please_verify_email">এখন আপনার ইমেল যাচাই করুন, আপনি ইমেল যাচাইকরণ ছাড়া লগইন করতে পারবেন না</string>
+    <string name="continue_text">চালিয়ে যান</string>
+    <string name="profile_image">প্রোফাইল ছবি</string>
+    <string name="password_change">পাসওয়ার্ড পরিবর্তন</string>
+    <string name="privacy_policy">গোপনীয়তা নীতি</string>
+    <string name="about_us">আমাদের সম্পর্কে</string>
+    <string name="send_a_message">একটি বার্তা পাঠান</string>
+    <string name="update_info">তথ্য আপডেট করুন</string>
+    <string name="gender">লিঙ্গ</string>
+    <string name="female">মহিলা</string>
+    <string name="male">পুরুষ</string>
+    <string name="female_en">Female</string>
+    <string name="male_en">Male</string>
+    <string name="date_of_birth">জন্ম তারিখ</string>
+    <string name="email_can_not_change">ইমেইল পরিবর্তন করা যাবে না</string>
+    <string name="enter_your_number">আপনার নম্বর লিখুন</string>
+    <string name="enter_a_valid_number">একটি বৈধ নম্বর লিখুন</string>
+    <string name="enter_dob">জন্ম তারিখ প্রয়োজন</string>
+    <string name="update_successfully">সফলভাবে আপডেট হয়েছে!</string>
+    <string name="verified">আপনার অ্যাকাউন্ট যাচাই করা হয়েছে.</string>
+    <string name="login_again">আবার লগইন করুন</string>
+    <string name="upload_image">ছবি আপলোড</string>
+    <string name="upload_your_profile_pic">আপনার প্রোফাইল ছবি আপলোড করুন</string>
+    <string name="choose_image">ছবি নির্বাচন করুন</string>
+    <string name="changing_password">পাসওয়ার্ড পরিবর্তন করা</string>
+    <string name="current_pass">বর্তমান পাসওয়ার্ড</string>
+    <string name="verify">যাচাই করুন</string>
+    <string name="your_profile_is_not_verify_yet">আপনার প্রোফাইল এখনো যাচাই করা হয়নি!</string>
+    <string name="new_pass2">নতুন পাসওয়ার্ড</string>
+    <string name="confirmed_pass">নিশ্চিত পাসওয়ার্ড</string>
+    <string name="change_password">পাসওয়ার্ড পরিবর্তন করুন</string>
+    <string name="verified_now_you_can">যাচাই! এখন আপনি আপনার পাসওয়ার্ড পরিবর্তন করতে পারেন!</string>
+    <string name="insert_information">সঠিক তথ্য দিন</string>
+    <string name="booked_by">সিরিয়াল নিয়েছেন</string>
+    <string name="mobile_number">মোবাইল নম্বর</string>
+    <string name="mobile_number_bottom_sheet">মোবাইল নম্বর (+88)</string>
+    <string name="book_now_btn">সিরিয়াল নিন</string>
+    <string name="select_type">প্রকার নির্বাচন করুন</string>
+    <string name="selected_type">নির্বাচিত প্রকার</string>
+    <string name="update_button">আপডেট</string>
+    <string name="cancel_booking">বুকিং বাতিল করুন</string>
+    <string name="are_your_sure">তুমি কি নিশ্চিত!</string>
+    <string name="msg">বুকিং বাতিল করতে চান? হ্যাঁ ক্লিক করলে আপনার বুকিং বাতিল হয়ে যাবে।</string>
+    <string name="yes">হ্যাঁ</string>
+    <string name="no">না</string>
+    <string name="need_internet_connection">আমাদের অ্যাপ ব্যবহার করতে দয়া করে ডেটা বা ওয়াইফাই চালু করুন।</string>
+    <string name="ups_no_internet_connection">ইউ। পি। এস! ইন্টারনেট সংযোগ নেই</string>
+    <string name="serials">সিরিয়াল</string>
+    <string name="your_serial">আপনার সিরিয়াল</string>
+    <string name="person_1">ব্যক্তি ১</string>
+    <string name="person_2">ব্যক্তি ২</string>
+    <string name="person_3">ব্যক্তি ৩</string>
+
+    <string name="language_setting" translatable="false">Language / ভাষা</string>
+    <string name="select_your_language" translatable="false">Select your language :</string>
+    <string name="select_your_language_bn" translatable="false">আপনার ভাষা নির্বাচন করুন:</string>
+
+    <string name="bengali" translatable="false">বাংলা</string>
+    <string name="english" translatable="false">English</string>
+
+    <string name="country_code_bd" translatable="false">+88</string>
+    <string name="number_hint" translatable="false">01XXXXXXXXX</string>
+
+    <string-array name="language_types">
+        <item>@string/language_setting</item>
+        <item>@string/english</item>
+        <item>@string/bengali</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+
+    <string name="lrjamilbd_gmail_com" translatable="false">lrjamilbd@gmail.com</string>
+    <string name="_8801712302246" translatable="false">+8801712302246</string>
+
+    <string name="this_is_an_ad">ইহা একটি বিজ্ঞাপন</string>
+    <string name="success_password_change">সফলভাবে পাসওয়ার্ড পরিবর্তন করা হয়েছে</string>
+    <string name="create_a_new_account">একটি নতুন অ্যাকাউন্ট তৈরি করুন</string>
+    <string name="no_internet_connection">ইন্টারনেট সংযোগ নেই</string>
+    <string name="welcome">স্বাগতম</string>
+    <string name="wrong_pass">ভূল পাসওয়ার্ড</string>
+    <string name="user_does_not_exist">ব্যবহারকারীর অস্তিত্ব নেই বা আর বৈধ নয়৷ আবার নিবন্ধন করুন.</string>
+    <string name="user_exist">ব্যবহারকারী আগে থেকেই আছে</string>
+    <string name="welcome_back">ফিরে আসার জন্য স্বাগতম!</string>
+    <string name="enter_your_full_name">আপনার পুরো নাম লিখুন…</string>
+    <string name="email_req">ইমেইল*</string>
+    <string name="enter_your_email">তুমার ইমেইল প্রবেশ করাও…</string>
+    <string name="date_of_birth_dd_mm_yyyy">জন্ম তারিখ (দিন/মাস/বছর)*</string>
+    <string name="dd_mm_yyyy">দিন/মাস/বছর</string>
+    <string name="gender_req">লিঙ্গ*</string>
+    <string name="mobile_88">মোবাইল* (+88)</string>
+    <string name="enter_your_mobile_number">আপনার মোবাইল নাম্বার প্রবেশ করুন…</string>
+    <string name="new_password_req">নতুন পাসওয়ার্ড*</string>
+    <string name="create_a_new_password">একটি নতুন পাসওয়ার্ড তৈরি করুন…</string>
+    <string name="confirm_password_req">পাসওয়ার্ড নিশ্চিত করুন*</string>
+    <string name="select_a_gender">একটি লিঙ্গ নির্বাচন করুন</string>
+    <string name="date_of_birth_req">জন্ম তারিখ প্রয়োজন</string>
+    <string name="pass_to_weak">পাসওয়ার্ড খুব দুর্বল। পাসওয়ার্ড কমপক্ষে ৬ সংখ্যার হতে হবে</string>
+    <string name="successfully_registered">সাফল্যের সাথে নিবন্ধিত.</string>
+    <string name="weak_pass">আপনার পাসওয়ার্ড খুব দুর্বল. অনুগ্রহ করে বর্ণমালা, সংখ্যা এবং পাঠ্যের মিশ্রণ ব্যবহার করুন</string>
+    <string name="invalid_pass">আপনার ই - মেইল - অবৈধ. অথবা ইতিমধ্যে ব্যবহার করা হয়েছে, দয়া করে পুনরায় প্রবেশ করুন</string>
+    <string name="already_registered">ব্যবহারকারী ইতিমধ্যেই এই ইমেলের সাথে নিবন্ধিত। অন্য ইমেইল ব্যবহার করুন</string>
+    <string name="can_t_change_email_address">ইমেল ঠিকানা পরিবর্তন করতে পারবেন না</string>
+    <string name="save_image">ছবি সংরক্ষন করুন</string>
+    <string name="set_password">পাসওয়ার্ড সেট করুন</string>
+
+    <string name="new_serial_booked">নতুন সিরিয়াল বুক করা হয়েছে</string>
+    <string name="just_booked_a_serial">এইমাত্র একটি সিরিয়াল বুক করেছেন।</string>
+    <string name="serial_book_canceled">সিরিয়াল বাতিল করা হয়েছে</string>
+    <string name="just_canceled_book_serial">এইমাত্র সিরিয়াল বাতিল করেছেন।</string>
+
+    <string name="send_a_message_by">মেসেজ পাঠিয়েছেন</string>
+
+
+</resources>

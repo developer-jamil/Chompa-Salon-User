@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/bodyBG"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Setting">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="UselessParent">
+        <!--Total Area 2-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp"
+            tools:ignore="UselessParent">
+
+            <!--Dark Mood & Language-->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:elevation="20dp"
+                android:focusable="true"
+                android:foreground="?attr/selectableItemBackground"
+                android:padding="10dp"
+                android:visibility="visible"
+                app:cardCornerRadius="10dp"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    style="@style/bgBlackWhite"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <!--Dark Mood Setting-->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:padding="10dp"
+                        android:paddingEnd="0dp"
+                        android:weightSum="100"
+                        tools:ignore="RtlSymmetry">
+
+                        <com.google.android.material.floatingactionbutton.FloatingActionButton
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="18"
+                            android:src="@drawable/ic_baseline_dark_mode_24"
+                            tools:ignore="ContentDescription" />
+
+                        <androidx.appcompat.widget.SwitchCompat
+                            android:id="@+id/switchCompatId"
+                            style="@style/item_text_color"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="end"
+                            android:layout_weight="80"
+                            android:checked="false"
+                            android:paddingStart="@dimen/_15sdp"
+                            android:text="@string/dark_mood"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            tools:ignore="RtlSymmetry" />
+                    </LinearLayout>
+
+                    <!-- Language Setting-->
+                    <LinearLayout
+                        android:id="@+id/languageId"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:padding="10dp"
+                        android:paddingEnd="0dp"
+                        android:weightSum="100"
+                        tools:ignore="RtlSymmetry">
+
+                        <com.google.android.material.floatingactionbutton.FloatingActionButton
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="18"
+                            android:src="@drawable/ic_baseline_translate_24"
+                            tools:ignore="ContentDescription" />
+
+                        <TextView
+                            style="@style/item_text_color"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="80"
+                            android:drawableEnd="@drawable/ic_baseline_keyboard_arrow_right_24"
+                            android:gravity="center_vertical"
+                            android:paddingStart="@dimen/_15sdp"
+                            android:text="@string/language_setting"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            tools:ignore="UseCompatTextViewDrawableXml" />
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!--Booking Medium Native Ad-->
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/adTextId"
+                android:visibility="gone"
+                style="@style/this_is_an_ad_text"/>
+            <com.google.android.ads.nativetemplates.TemplateView
+                android:id="@+id/templateHomeMedium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                style="@style/bodyBG"
+                app:gnt_template_type="@layout/gnt_medium_template_view" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <RelativeLayout
+        android:id="@+id/global_banner_container_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" />
+
+</RelativeLayout>

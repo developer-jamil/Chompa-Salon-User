@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/bodyBG"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".navigation_fragment.StyleFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:orientation="vertical">
+
+
+        <!--Hair Style - CardView-->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/hairStyleAreaId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#379C92"
+            android:clickable="true"
+            android:elevation="20dp"
+            android:focusable="true"
+            android:padding="10dp"
+            app:cardCornerRadius="10dp"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:orientation="vertical"
+                android:visibility="visible">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/gradient_bg"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:text="@string/hair_style"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
+                <!--CardView Person 1 & 2-->
+                <LinearLayout style="@style/cardViewLinearArea">
+
+                    <!--CardView Person 1-->
+                    <androidx.cardview.widget.CardView style="@style/cardViewPerson">
+
+                        <ImageView
+                            android:id="@+id/hairStyleId_1"
+                            style="@style/HomeCardViewImageView"
+                            android:src="@drawable/loading_img"
+                            tools:ignore="ContentDescription" />
+                    </androidx.cardview.widget.CardView>
+
+
+                    <!--CardView Person 2-->
+                    <androidx.cardview.widget.CardView
+                        style="@style/cardViewPerson"
+                        android:layout_marginStart="10dp">
+
+                        <ImageView
+                            android:id="@+id/hairStyleId_2"
+                            style="@style/HomeCardViewImageView"
+                            android:src="@drawable/loading_img"
+                            tools:ignore="ContentDescription" />
+                    </androidx.cardview.widget.CardView>
+
+                </LinearLayout>
+
+                <!--3rd + 4th CardView-->
+                <LinearLayout style="@style/cardViewLinearArea">
+
+                    <!--CardView Person 1-->
+                    <androidx.cardview.widget.CardView style="@style/cardViewPerson">
+
+                        <ImageView
+                            android:id="@+id/hairStyleId_3"
+                            style="@style/HomeCardViewImageView"
+                            android:src="@drawable/loading_img"
+                            tools:ignore="ContentDescription" />
+                    </androidx.cardview.widget.CardView>
+
+
+                    <!--CardView Person 2-->
+                    <androidx.cardview.widget.CardView
+                        style="@style/cardViewPerson"
+                        android:layout_marginStart="10dp">
+
+                        <ImageView
+                            android:id="@+id/hairStyleId_4"
+                            style="@style/HomeCardViewImageView"
+                            android:src="@drawable/loading_img"
+                            tools:ignore="ContentDescription" />
+                    </androidx.cardview.widget.CardView>
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!--Style Small_1 Native Ad-->
+        <TextView
+            android:layout_marginTop="10dp"
+            android:id="@+id/adTextId"
+            android:visibility="gone"
+            style="@style/this_is_an_ad_text"/>
+        <com.google.android.ads.nativetemplates.TemplateView
+            android:id="@+id/small_1_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:visibility="gone"
+            style="@style/bodyBG"
+            app:gnt_template_type="@layout/gnt_small_template_view" />
+
+        <!--Beard Style - CardView-->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#379C92"
+            android:clickable="true"
+            android:elevation="20dp"
+            android:focusable="true"
+            android:padding="10dp"
+            app:cardCornerRadius="10dp"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:orientation="vertical"
+                android:visibility="visible">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/gradient_bg"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:text="@string/beard_style"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
+                <!--CardView Person 1 & 2-->
+                <LinearLayout style="@style/cardViewLinearArea">
+
+                    <!--CardView Person 1-->
+                    <androidx.cardview.widget.CardView style="@style/cardViewPerson">
+
+                        <ImageView
+                            android:id="@+id/beardStyleId_1"
+                            style="@style/HomeCardViewImageView"
+                            android:src="@drawable/loading_img"
+                            tools:ignore="ContentDescription" />
+                    </androidx.cardview.widget.CardView>
+
+
+                    <!--CardView Person 2-->
+                    <androidx.cardview.widget.CardView
+                        style="@style/cardViewPerson"
+                        android:layout_marginStart="10dp">
+
+                        <ImageView
+                            android:id="@+id/beardStyleId_2"
+                            style="@style/HomeCardViewImageView"
+                            android:src="@drawable/loading_img"
+                            tools:ignore="ContentDescription" />
+                    </androidx.cardview.widget.CardView>
+
+                </LinearLayout>
+
+                <!--3rd + 4th CardView-->
+                <LinearLayout style="@style/cardViewLinearArea">
+
+                    <!--CardView Person 1-->
+                    <androidx.cardview.widget.CardView style="@style/cardViewPerson">
+
+                        <ImageView
+                            android:id="@+id/beardStyleId_3"
+                            style="@style/HomeCardViewImageView"
+                            android:src="@drawable/loading_img"
+                            tools:ignore="ContentDescription" />
+                    </androidx.cardview.widget.CardView>
+
+
+                    <!--CardView Person 2-->
+                    <androidx.cardview.widget.CardView
+                        style="@style/cardViewPerson"
+                        android:layout_marginStart="10dp">
+
+                        <ImageView
+                            android:id="@+id/beardStyleId_4"
+                            style="@style/HomeCardViewImageView"
+                            android:src="@drawable/loading_img"
+                            tools:ignore="ContentDescription" />
+                    </androidx.cardview.widget.CardView>
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!--Style Small_1 Native Ad-->
+        <TextView
+            android:layout_marginTop="10dp"
+            android:id="@+id/adTextId_2"
+            android:visibility="gone"
+            style="@style/this_is_an_ad_text"/>
+        <com.google.android.ads.nativetemplates.TemplateView
+            android:id="@+id/small_2_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:visibility="gone"
+            style="@style/bodyBG"
+            app:gnt_template_type="@layout/gnt_small_template_view" />
+
+        <!--Hair and Beard Style - CardView-->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#379C92"
+            android:clickable="true"
+            android:elevation="20dp"
+            android:focusable="true"
+            android:padding="10dp"
+            app:cardCornerRadius="10dp"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:orientation="vertical"
+                android:visibility="visible">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/gradient_bg"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:text="@string/hair_and_beard"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
+                <!--CardView Person 1 & 2-->
+                <LinearLayout style="@style/cardViewLinearArea">
+
+                    <!--CardView Person 1-->
+                    <androidx.cardview.widget.CardView style="@style/cardViewPerson">
+
+                        <ImageView
+                            android:id="@+id/hairBeardStyleId_1"
+                            style="@style/HomeCardViewImageView"
+                            android:src="@drawable/loading_img"
+                            tools:ignore="ContentDescription" />
+                    </androidx.cardview.widget.CardView>
+
+
+                    <!--CardView Person 2-->
+                    <androidx.cardview.widget.CardView
+                        style="@style/cardViewPerson"
+                        android:layout_marginStart="10dp">
+
+                        <ImageView
+                            android:id="@+id/hairBeardStyleId_2"
+                            style="@style/HomeCardViewImageView"
+                            android:src="@drawable/loading_img"
+                            tools:ignore="ContentDescription" />
+                    </androidx.cardview.widget.CardView>
+
+                </LinearLayout>
+
+                <!--3rd + 4th CardView-->
+                <LinearLayout style="@style/cardViewLinearArea">
+
+                    <!--CardView Person 1-->
+                    <androidx.cardview.widget.CardView style="@style/cardViewPerson">
+
+                        <ImageView
+                            android:id="@+id/hairBeardStyleId_3"
+                            style="@style/HomeCardViewImageView"
+                            android:src="@drawable/loading_img"
+                            tools:ignore="ContentDescription" />
+                    </androidx.cardview.widget.CardView>
+
+
+                    <!--CardView Person 2-->
+                    <androidx.cardview.widget.CardView
+                        style="@style/cardViewPerson"
+                        android:layout_marginStart="10dp">
+
+                        <ImageView
+                            android:id="@+id/hairBeardStyleId_4"
+                            style="@style/HomeCardViewImageView"
+                            android:src="@drawable/loading_img"
+                            tools:ignore="ContentDescription" />
+                    </androidx.cardview.widget.CardView>
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!--Style Small_1 Native Ad-->
+        <TextView
+            android:layout_marginTop="10dp"
+            android:id="@+id/adTextId_3"
+            android:visibility="gone"
+            style="@style/this_is_an_ad_text"/>
+        <com.google.android.ads.nativetemplates.TemplateView
+            android:id="@+id/small_3_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:visibility="gone"
+            style="@style/bodyBG"
+            app:gnt_template_type="@layout/gnt_small_template_view" />
+
+        <!--Facial Style - CardView-->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#379C92"
+            android:clickable="true"
+            android:elevation="20dp"
+            android:focusable="true"
+            android:padding="10dp"
+            app:cardCornerRadius="10dp"
+            android:layout_marginBottom="@dimen/_120sdp"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginBottom="@dimen/_5sdp"
+                android:visibility="visible">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/gradient_bg"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:text="@string/facial"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
+                <!--CardView Person 1 & 2-->
+                <LinearLayout style="@style/cardViewLinearArea">
+
+                    <!--CardView Person 1-->
+                    <androidx.cardview.widget.CardView style="@style/cardViewPerson">
+
+                        <ImageView
+                            android:id="@+id/facialStyleId_1"
+                            style="@style/HomeCardViewImageView"
+                            android:src="@drawable/loading_img"
+                            tools:ignore="ContentDescription" />
+                    </androidx.cardview.widget.CardView>
+
+
+                    <!--CardView Person 2-->
+                    <androidx.cardview.widget.CardView
+                        style="@style/cardViewPerson"
+                        android:layout_marginStart="10dp">
+
+                        <ImageView
+                            android:id="@+id/facialStyleId_2"
+                            style="@style/HomeCardViewImageView"
+                            android:src="@drawable/loading_img"
+                            tools:ignore="ContentDescription" />
+                    </androidx.cardview.widget.CardView>
+
+                </LinearLayout>
+
+                <!--3rd + 4th CardView-->
+                <LinearLayout style="@style/cardViewLinearArea">
+
+                    <!--CardView Person 1-->
+                    <androidx.cardview.widget.CardView style="@style/cardViewPerson">
+
+                        <ImageView
+                            android:id="@+id/facialStyleId_3"
+                            style="@style/HomeCardViewImageView"
+                            android:src="@drawable/loading_img"
+                            tools:ignore="ContentDescription" />
+                    </androidx.cardview.widget.CardView>
+
+
+                    <!--CardView Person 2-->
+                    <androidx.cardview.widget.CardView
+                        style="@style/cardViewPerson"
+                        android:layout_marginStart="10dp">
+
+                        <ImageView
+                            android:id="@+id/facialStyleId_4"
+                            style="@style/HomeCardViewImageView"
+                            android:src="@drawable/loading_img"
+                            tools:ignore="ContentDescription" />
+                    </androidx.cardview.widget.CardView>
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+</ScrollView>

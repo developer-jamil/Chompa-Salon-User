@@ -1,0 +1,92 @@
+plugins {
+    id 'com.android.application'
+    id 'com.google.gms.google-services'
+    id 'com.google.firebase.crashlytics'
+}
+
+android {
+    namespace 'com.champasalon.chunarughat'
+    compileSdk 33
+
+    defaultConfig {
+        applicationId "com.champasalon.chunarughat"
+        minSdk 21
+        targetSdk 33
+        versionCode 8
+        versionName "1.8"
+        //resConfigs "en", "bn"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false  //R8 enable false to true
+            //shrinkResources true //decrease app size
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    bundle {
+        language {
+            enableSplit = false
+        }
+    }
+}
+
+dependencies {
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'com.google.android.material:material:1.9.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+
+    //circle image view
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
+    //imageView with link
+    implementation 'com.squareup.picasso:picasso:2.71828'
+
+    //image cropper
+    api 'com.theartofdev.edmodo:android-image-cropper:2.8.0'
+
+    //firebase
+    implementation ('com.google.firebase:firebase-auth:22.0.0') {
+        exclude module: "play-services-safetynet"
+    }
+    implementation 'com.google.firebase:firebase-crashlytics:18.3.7'
+    implementation 'com.google.firebase:firebase-analytics:21.3.0'
+    implementation 'com.google.firebase:firebase-database:20.2.2'
+    implementation 'com.google.firebase:firebase-storage:20.2.0'
+
+    //SignInButton
+    implementation 'com.google.android.gms:play-services-base:18.2.0'
+    implementation 'com.google.android.gms:play-services-auth:20.5.0'
+    //google auth
+    implementation 'com.github.bumptech.glide:glide:4.12.0'
+
+    //gif view
+    implementation 'pl.droidsonroids.gif:android-gif-drawable:1.2.17'
+
+    //ads
+    implementation 'com.google.android.gms:play-services-ads:22.1.0'
+    //native ads
+    implementation project(':nativetemplates')
+    //curved bottom nav style
+    implementation 'com.etebarian:meow-bottom-navigation:1.2.0'
+
+    //FCM - Push Notifications
+    implementation 'com.google.firebase:firebase-messaging:23.1.2'
+    // Coroutines
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4'
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4'
+    // Retrofit
+    implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
+
+
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+}

@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/bodyBG"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".navigation_fragment.ProfileFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="UselessParent">
+        <!--Total Area 2-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp"
+            tools:ignore="UselessParent">
+
+
+            <!--User Profile-->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/updateUserInfoId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:elevation="20dp"
+                android:focusable="true"
+                android:foreground="?attr/selectableItemBackground"
+                android:padding="10dp"
+                android:visibility="visible"
+                app:cardCornerRadius="10dp"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    style="@style/bgBlackWhite"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/_5sdp">
+
+                    <!-- Language Setting-->
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/userImageViewId"
+                        android:layout_width="@dimen/_60sdp"
+                        android:layout_height="@dimen/_60sdp"
+                        android:src="@drawable/ic_baseline_person_24_hint"
+                        app:civ_border_color="#FF000000" />
+
+                    <LinearLayout
+                        android:id="@+id/userProfileId"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="10dp"
+                        android:padding="10dp"
+                        android:paddingEnd="0dp"
+                        android:weightSum="5"
+                        tools:ignore="RtlSymmetry">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="4"
+                            android:orientation="vertical"
+                            android:weightSum="2">
+
+                            <TextView
+                                android:id="@+id/userNameTextViewId"
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="1.2"
+                                android:text="@string/loading"
+                                android:textSize="20sp"
+                                android:textStyle="bold"
+                                tools:ignore="HardcodedText,NestedWeights" />
+
+                            <TextView
+                                android:id="@+id/emailTextViewId"
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="0.8"
+                                android:text="@string/loading"
+                                android:textSize="15sp" />
+
+                        </LinearLayout>
+
+                        <ImageView
+                            style="@style/user_tint_style"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:src="@drawable/ic_baseline_keyboard_arrow_right_24"
+                            tools:ignore="ContentDescription" />
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!--Profile Image and Password-->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:elevation="20dp"
+                android:focusable="true"
+                android:foreground="?attr/selectableItemBackground"
+                android:padding="10dp"
+                android:visibility="visible"
+                app:cardCornerRadius="10dp"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    style="@style/bgBlackWhite"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+
+                    <!-- Profile Image-->
+                    <LinearLayout
+                        android:id="@+id/profileImageId"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:padding="10dp"
+                        android:paddingEnd="0dp"
+                        android:weightSum="100"
+                        tools:ignore="RtlSymmetry">
+
+                        <com.google.android.material.floatingactionbutton.FloatingActionButton
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="18"
+                            android:src="@drawable/ic_baseline_person_24"
+                            tools:ignore="ContentDescription" />
+
+                        <TextView
+                            style="@style/item_text_color"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="80"
+                            android:drawableEnd="@drawable/ic_baseline_keyboard_arrow_right_24"
+                            android:gravity="center_vertical"
+                            android:paddingStart="@dimen/_15sdp"
+                            android:text="@string/profile_image"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            tools:ignore="UseCompatTextViewDrawableXml" />
+                    </LinearLayout>
+
+                    <View
+                        style="@style/view_color"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_1sdp" />
+
+                    <!-- Password Change-->
+                    <LinearLayout
+                        android:id="@+id/passwordChangeId"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:padding="10dp"
+                        android:paddingEnd="0dp"
+                        android:weightSum="100"
+                        tools:ignore="RtlSymmetry">
+
+                        <com.google.android.material.floatingactionbutton.FloatingActionButton
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="18"
+                            android:src="@drawable/ic_baseline_lock_24"
+                            tools:ignore="ContentDescription" />
+
+                        <TextView
+                            style="@style/item_text_color"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="80"
+                            android:drawableEnd="@drawable/ic_baseline_keyboard_arrow_right_24"
+                            android:gravity="center_vertical"
+                            android:paddingStart="@dimen/_15sdp"
+                            android:text="@string/password_change"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            tools:ignore="UseCompatTextViewDrawableXml" />
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!--Privacy & about us & send a message-->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:elevation="20dp"
+                android:focusable="true"
+                android:foreground="?attr/selectableItemBackground"
+                android:padding="10dp"
+                android:visibility="visible"
+                app:cardCornerRadius="10dp"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    style="@style/bgBlackWhite"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+
+                    <!-- privacy policy Image-->
+                    <LinearLayout
+                        android:id="@+id/privacyPolicyId"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:padding="10dp"
+                        android:paddingEnd="0dp"
+                        android:weightSum="100"
+                        tools:ignore="RtlSymmetry">
+
+                        <com.google.android.material.floatingactionbutton.FloatingActionButton
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="18"
+                            android:src="@drawable/ic_baseline_privacy_tip_24"
+                            tools:ignore="ContentDescription" />
+
+                        <TextView
+                            style="@style/item_text_color"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="80"
+                            android:drawableEnd="@drawable/ic_baseline_keyboard_arrow_right_24"
+                            android:gravity="center_vertical"
+                            android:paddingStart="@dimen/_15sdp"
+                            android:text="@string/privacy_policy"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            tools:ignore="UseCompatTextViewDrawableXml" />
+                    </LinearLayout>
+
+                    <View
+                        style="@style/view_color"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_1sdp" />
+
+
+                    <!-- about us-->
+                    <LinearLayout
+                        android:id="@+id/aboutUsId"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:padding="10dp"
+                        android:paddingEnd="0dp"
+                        android:weightSum="100"
+                        tools:ignore="RtlSymmetry">
+
+                        <com.google.android.material.floatingactionbutton.FloatingActionButton
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="18"
+                            android:src="@drawable/ic_baseline_person_pin_24"
+                            tools:ignore="ContentDescription" />
+
+                        <TextView
+                            style="@style/item_text_color"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="80"
+                            android:drawableEnd="@drawable/ic_baseline_keyboard_arrow_right_24"
+                            android:gravity="center_vertical"
+                            android:paddingStart="@dimen/_15sdp"
+                            android:text="@string/about_us"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            tools:ignore="UseCompatTextViewDrawableXml" />
+                    </LinearLayout>
+
+                    <View
+                        style="@style/view_color"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_1sdp" />
+
+
+                    <!-- send a message-->
+                    <LinearLayout
+                        android:id="@+id/sendAMessageId"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:padding="10dp"
+                        android:paddingEnd="0dp"
+                        android:weightSum="100"
+                        tools:ignore="RtlSymmetry">
+
+                        <com.google.android.material.floatingactionbutton.FloatingActionButton
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="18"
+                            android:src="@drawable/ic_baseline_message_24"
+                            tools:ignore="ContentDescription" />
+
+                        <TextView
+                            style="@style/item_text_color"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="80"
+                            android:drawableEnd="@drawable/ic_baseline_keyboard_arrow_right_24"
+                            android:gravity="center_vertical"
+                            android:paddingStart="@dimen/_15sdp"
+                            android:text="@string/send_a_message"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            tools:ignore="UseCompatTextViewDrawableXml" />
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!--Settings-->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/settingsId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:elevation="20dp"
+                android:focusable="true"
+                android:foreground="?attr/selectableItemBackground"
+                android:padding="10dp"
+                android:visibility="visible"
+                app:cardCornerRadius="10dp"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    style="@style/bgBlackWhite"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <!-- Profile Image-->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:padding="10dp"
+                        android:paddingEnd="0dp"
+                        android:weightSum="100"
+                        tools:ignore="RtlSymmetry">
+
+                        <com.google.android.material.floatingactionbutton.FloatingActionButton
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="18"
+                            android:src="@drawable/ic_baseline_settings_24"
+                            tools:ignore="ContentDescription" />
+
+                        <TextView
+                            style="@style/item_text_color"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="80"
+                            android:drawableEnd="@drawable/ic_baseline_keyboard_arrow_right_24"
+                            android:gravity="center_vertical"
+                            android:paddingStart="@dimen/_15sdp"
+                            android:text="@string/setting"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            tools:ignore="UseCompatTextViewDrawableXml" />
+                    </LinearLayout>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!-- Logout -->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/logOutId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:elevation="20dp"
+                android:focusable="true"
+                android:foreground="?attr/selectableItemBackground"
+                android:padding="10dp"
+                android:visibility="visible"
+                app:cardCornerRadius="10dp"
+                app:cardUseCompatPadding="true"
+                android:layout_marginBottom="@dimen/_120sdp">
+
+                <LinearLayout
+                    style="@style/bgBlackWhite"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <!-- Logout-->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:padding="10dp"
+                        android:paddingEnd="0dp"
+                        android:weightSum="100"
+                        tools:ignore="RtlSymmetry">
+
+                        <com.google.android.material.floatingactionbutton.FloatingActionButton
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="18"
+                            android:src="@drawable/ic_baseline_logout_24"
+                            tools:ignore="ContentDescription" />
+
+                        <TextView
+                            style="@style/item_text_color"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="80"
+                            android:drawableEnd="@drawable/ic_baseline_keyboard_arrow_right_24"
+                            android:gravity="center_vertical"
+                            android:paddingStart="@dimen/_15sdp"
+                            android:text="@string/logout"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            tools:ignore="UseCompatTextViewDrawableXml" />
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
